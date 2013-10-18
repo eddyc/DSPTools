@@ -1,0 +1,5 @@
+/*!
+ * @framework DSP Tools
+ * @abstract C pseudo-classes for performing common DSP tasks
+ * @discussion These pseudo-classes can be used to perform spectral analysis of audio .
+ */
