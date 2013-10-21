@@ -13,7 +13,7 @@ HDF5 - Install through Homebrew (brew install hdf5)
 
 AudioInput
 AudioObject
-AudioStream
+AudioStream  
 
 ###DSP###
 
