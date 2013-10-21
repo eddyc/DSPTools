@@ -7,7 +7,7 @@
 //
 
 #import "DTWAccelerate.h"
-#import "ConvenienceFunctions.h"
+#import "../../Custom Functions/ConvenienceFunctions.h"
 
 DTWAccelerate *const DTWAccelerate_new(const Matrix *const paletteData,
                                        size_t maximumInputBufferFrameCount,

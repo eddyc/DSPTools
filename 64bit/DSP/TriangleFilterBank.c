@@ -7,7 +7,7 @@
 //
 
 #import "TriangleFilterBank.h"
-#import "ConvenienceFunctions.h" 
+#import "../../Custom Functions/ConvenienceFunctions.h" 
 TriangleFilterBank *TriangleFilterBank_new(size_t filterCount,
                                            size_t magnitudeFrameSize,
                                            size_t samplerate)

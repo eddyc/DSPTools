@@ -355,7 +355,10 @@ void AudioObject_readCallbackStereo(AudioStream *audioStream, void *inRefCon, co
     self->currentReadPosition += inNumberFrames;
 }
 
-void AudioObject_readCallbackMono(AudioStream *audioStream, void *inRefCon, const UInt32 inNumberFrames, Float64 **audioData)
+void AudioObject_readCallbackMono(AudioStream *audioStream,
+                                  void *inRefCon,
+                                  const UInt32 inNumberFrames,
+                                  Float64 **audioData)
 {
     AudioObject *self = (AudioObject *)inRefCon;
     

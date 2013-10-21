@@ -7,7 +7,7 @@
 //
 
 #import "PhaseVocoder.h"
-#import "ConvenienceFunctions.h"
+#import "../../Custom Functions/ConvenienceFunctions.h"
 
 PhaseVocoder *PhaseVocoder_new(size_t FFTFrameSize,
                                size_t hopSize,

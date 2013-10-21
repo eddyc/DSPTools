@@ -18,7 +18,6 @@ extern "C"
     
     typedef struct AudioInput
     {
-
         AudioTimeStamp timeStamp;
         AudioUnit inputUnit;
         AudioBufferList *inputBuffer;

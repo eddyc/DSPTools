@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0F5AC02C-A377-42F3-85DC-94570D8CD4BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Audio DSP Tools</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D309E37E-6869-4667-A557-6524D154C6FB</key>
+		<string>ssh://github.com/eddyc/DSPTools.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>64bit/Audio DSP Tools/Audio DSP Tools.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D309E37E-6869-4667-A557-6524D154C6FB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/eddyc/DSPTools.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D309E37E-6869-4667-A557-6524D154C6FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D309E37E-6869-4667-A557-6524D154C6FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DSPTools</string>
+		</dict>
+	</array>
+</dict>
+</plist>
