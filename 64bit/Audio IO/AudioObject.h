@@ -39,7 +39,7 @@ extern "C"
      AudioStreamBasicDescription of audio samples when stored in memory.
      */
     
-    typedef struct _AudioObject
+    typedef struct AudioObject
     {
         Float64 **audioChannels;
         Float64 *monoChannel;
