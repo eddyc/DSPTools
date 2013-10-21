@@ -7,9 +7,7 @@
 //
 
 
-#import <AudioToolbox/AudioToolbox.h>
-#import <AudioUnit/AudioUnit.h>
-#import <CoreAudio/CoreAudio.h>
+#import "DSPTools.h"
 #import "AudioStream.h"
 #ifdef __cplusplus
 extern "C"

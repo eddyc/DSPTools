@@ -7,16 +7,9 @@
 //
 
 
-#import <MacTypes.h>
-#import <stdio.h>
-#import <stdlib.h>
-#import <AudioToolbox/AudioToolbox.h>
+#import "DSPTools.h"
 #import "AudioStream.h"
 #define AudioObject_monoChannel -1
-
-#ifndef OVERLOADED
-#define OVERLOADED __attribute__((overloadable))
-#endif
 
 #ifdef __cplusplus
 extern "C"
@@ -26,23 +19,23 @@ extern "C"
     /*!
      @class AudioObject
      @abstract Object for opening, storing and saving audio samples
-     @var audioChannels
+     @param audioChannels
      Pointers to audio channels sample data.
-     @var monoChannel
+     @param monoChannel
      Pointer to mono channel sample data.
-     @var channelCount
+     @param channelCount
      Number of channels of audio data.
-     @var samplerate
+     @param samplerate
      Sample rate of the audio data.
-     @var frameCount
+     @param frameCount
      Number of samples of audio data in each channel.
-     @var filePath
+     @param filePath
      Path to audio file, if applicable, that the audio samples are opened from.
-     @var currentReadPosition
+     @param currentReadPosition
      Acts as a play head for when reading audio, represents the current read position
-     @var fileStreamDescription
+     @param fileStreamDescription
      AudioStreamBasicDescription of audio file audio samples are opened from.
-     @var processStreamDescription
+     @param processStreamDescription
      AudioStreamBasicDescription of audio samples when stored in memory.
      */
     

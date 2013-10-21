@@ -7,11 +7,7 @@
 //
 
 
-#import <AudioToolbox/AudioToolbox.h>
-
-#ifndef OVERLOADED
-#define OVERLOADED __attribute__((overloadable))
-#endif
+#import "DSPTools.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -105,9 +101,6 @@ extern "C"
      Audio processing time in seconds.
      */
     
-
-
-
     OVERLOADED void AudioStream_process(AudioStream *self,
                                         const Float64 time);
     
