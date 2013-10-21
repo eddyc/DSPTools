@@ -15,12 +15,18 @@ extern "C"
 {
 #endif
     
+    /**
+     *  Specify which OpenCL device to use for processing, CPU or GPU
+     *  @param kOpenCLObjectDevice_CPU Select CPU
+     *  @param kOpenCLObjectDevice_GPU Select GPU
+     */
     typedef enum OpenCLObjectDevice
     {
         kOpenCLObjectDevice_CPU,
         kOpenCLObjectDevice_GPU
     } OpenCLObjectDevice;
     
+
     typedef struct OpenCLObject
     {
         cl_program program;
