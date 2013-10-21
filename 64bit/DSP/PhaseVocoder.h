@@ -11,9 +11,6 @@
 #import "FFT.h"
 #import "AudioObject.h"
 
-#ifndef OVERLOADED
-#define OVERLOADED __attribute__((overloadable))
-#endif
 #ifdef __cplusplus
 extern "C"
 {

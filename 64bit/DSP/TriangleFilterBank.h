@@ -7,10 +7,7 @@
 //
 
 
-#import <MacTypes.h>
-#import <stdio.h>
-#import <stdlib.h>
-#import <Accelerate/Accelerate.h>
+#import "DSPTools.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -94,7 +94,7 @@ void Matrix_deallocate(Matrix *self)
 
 void Matrix_delete(Matrix *self)
 {
-    Matrix_deallocate(self->submatrixView);
+    Matrix_deallocate((Matrix *)self->submatrixView);
     Matrix_deallocate(self);
 }
 

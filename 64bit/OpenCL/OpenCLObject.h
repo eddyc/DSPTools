@@ -8,10 +8,8 @@
 
 
 #import <OpenCL/opencl.h>
-#import <MacTypes.h>
-#ifndef OVERLOADED
-#define OVERLOADED __attribute__((overloadable))
-#endif
+#import "DSPTools.h"
+
 #ifdef __cplusplus
 extern "C"
 {

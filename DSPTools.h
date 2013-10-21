@@ -10,9 +10,11 @@
 #import <AudioToolbox/AudioToolbox.h>
 #import <AudioUnit/AudioUnit.h>
 #import <CoreAudio/CoreAudio.h>
+#import <Accelerate/Accelerate.h>
 #import <MacTypes.h>
 #import <stdio.h>
 #import <stdlib.h>
+#import <math.h>
 
 #ifndef OVERLOADED
 #define OVERLOADED __attribute__((overloadable))

@@ -7,10 +7,8 @@
 //
 
 
+#import "DSPTools.h"
 #import "Matrix.h"
-#ifndef OVERLOADED
-#define OVERLOADED __attribute__((overloadable))
-#endif
 #ifdef __cplusplus
 extern "C"
 {

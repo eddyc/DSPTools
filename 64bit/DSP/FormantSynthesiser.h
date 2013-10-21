@@ -7,9 +7,7 @@
 //
 
 
-#import <MacTypes.h>
-#import <stdio.h>
-#import <stdlib.h>
+#import "DSPTools.h"
 #import "BandPassFilter.h"
 #import "Matrix.h"
 

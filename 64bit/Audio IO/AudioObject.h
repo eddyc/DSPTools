@@ -84,6 +84,11 @@ extern "C"
      */
     void AudioObject_scopedDelete(AudioObject **self);
 
+    /**
+     *  Definition used to construct a scoped AudioObject pseudoclas
+     *
+     *  @return A scoped AudioObject pseudoclass
+     */
 #define _AudioObject __attribute__((unused)) __attribute__((cleanup(AudioObject_scopedDelete))) AudioObject
 
     /*!

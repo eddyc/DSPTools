@@ -7,9 +7,7 @@
 //
 
 
-#import <MacTypes.h>
-#import <stdio.h>
-#import <stdlib.h>
+#import "DSPTools.h"
 #import "AudioStream.h"
 #ifdef __cplusplus
 extern "C"
