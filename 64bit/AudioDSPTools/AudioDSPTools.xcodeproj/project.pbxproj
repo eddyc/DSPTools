@@ -67,7 +67,6 @@
 		4409C75618116493004148DA /* AudioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioObject.h; sourceTree = "<group>"; };
 		4409C75718116493004148DA /* AudioStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AudioStream.c; sourceTree = "<group>"; };
 		4409C75818116493004148DA /* AudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStream.h; sourceTree = "<group>"; };
-		4409C75C18116493004148DA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		4409C75E18116493004148DA /* AudioMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AudioMatrix.c; sourceTree = "<group>"; };
 		4409C75F18116493004148DA /* AudioMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioMatrix.h; sourceTree = "<group>"; };
 		4409C76018116493004148DA /* Matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Matrix.c; sourceTree = "<group>"; };
@@ -161,7 +160,6 @@
 				4409C75618116493004148DA /* AudioObject.h */,
 				4409C75718116493004148DA /* AudioStream.c */,
 				4409C75818116493004148DA /* AudioStream.h */,
-				4409C75C18116493004148DA /* index.html */,
 			);
 			name = "Audio IO";
 			path = "../Audio IO";
