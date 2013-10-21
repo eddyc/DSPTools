@@ -11,30 +11,30 @@ HDF5 - Install through Homebrew (brew install hdf5)
 
 ###Audio IO###
 
-AudioInput
-AudioObject
-AudioStream  
+-AudioInput
+-AudioObject
+-AudioStream
 
 ###DSP###
 
-FFT
-PhaseVocoder
-TriangleFilterBank
-BandPassFilter
-DTWAccelerate
+-FFT
+-PhaseVocoder
+-TriangleFilterBank
+-BandPassFilter
+-DTWAccelerate
 
 ###Data Structures###
 
-Matrix
-AudioMatrix
-MatrixRingBuffer
+-Matrix
+-AudioMatrix
+-MatrixRingBuffer
 
 ###OpenCL###
 
 ####Classes####
 
-OpenCLObject
+-OpenCLObject
 
 ####Data Structures####
 
-MatrixCL
+-MatrixCL
