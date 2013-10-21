@@ -49,8 +49,8 @@ AudioInput *AudioInput_new()
     
     CheckError(result, "Couldn't open component for inputUnit");
     
-    UInt32 disableFlag = 0;
-    UInt32 enableFlag = 1;
+//    UInt32 disableFlag = 0;
+//    UInt32 enableFlag = 1;
     AudioUnitScope outputBus = 0;
     AudioUnitScope inputBus = 1;
     

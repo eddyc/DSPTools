@@ -20,7 +20,7 @@
 extern "C"
 {
 #endif
-    
+
     typedef struct Matrix
     {
         size_t rowCount;
@@ -28,9 +28,6 @@ extern "C"
         size_t elementCount;
         Float64 *data;
         Float64 *temp;
-        
-
-        
         struct Matrix *submatrixView;
         
     } Matrix;
