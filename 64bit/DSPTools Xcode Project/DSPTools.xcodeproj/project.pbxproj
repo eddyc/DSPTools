@@ -19,9 +19,6 @@
 		4409C7A318116493004148DA /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C76118116493004148DA /* Matrix.h */; };
 		4409C7A418116493004148DA /* MatrixRingBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4409C76218116493004148DA /* MatrixRingBuffer.c */; };
 		4409C7A518116493004148DA /* MatrixRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C76318116493004148DA /* MatrixRingBuffer.h */; };
-		4409C7A618116493004148DA /* MatrixCL.c in Sources */ = {isa = PBXBuildFile; fileRef = 4409C76518116493004148DA /* MatrixCL.c */; };
-		4409C7A718116493004148DA /* MatrixCL.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4409C76618116493004148DA /* MatrixCL.cl */; };
-		4409C7A818116493004148DA /* MatrixCL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C76718116493004148DA /* MatrixCL.h */; };
 		4409C7A918116493004148DA /* OverlappingRingBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4409C76818116493004148DA /* OverlappingRingBuffer.c */; };
 		4409C7AA18116493004148DA /* OverlappingRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C76918116493004148DA /* OverlappingRingBuffer.h */; };
 		4409C7AB18116493004148DA /* RingBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4409C76A18116493004148DA /* RingBuffer.c */; };
@@ -46,8 +43,6 @@
 		4409C7C618116493004148DA /* TriangleFilterBank.c in Sources */ = {isa = PBXBuildFile; fileRef = 4409C78D18116493004148DA /* TriangleFilterBank.c */; };
 		4409C7C718116493004148DA /* TriangleFilterBank.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C78E18116493004148DA /* TriangleFilterBank.h */; };
 		4409C7CA18116493004148DA /* TriangleFilterBankTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C79118116493004148DA /* TriangleFilterBankTests.h */; };
-		4409C7CB18116493004148DA /* MatrixOpenCL.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4409C79318116493004148DA /* MatrixOpenCL.cl */; };
-		4409C7CC18116493004148DA /* MatrixOpenCL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C79418116493004148DA /* MatrixOpenCL.h */; };
 		4409C7CD18116493004148DA /* OpenCLObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 4409C79518116493004148DA /* OpenCLObject.c */; };
 		4409C7CE18116493004148DA /* OpenCLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409C79618116493004148DA /* OpenCLObject.h */; };
 		4409C7D4181164B1004148DA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4409C7CF181164B1004148DA /* Accelerate.framework */; };
@@ -57,6 +52,9 @@
 		4409C7D8181164B1004148DA /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4409C7D3181164B1004148DA /* OpenCL.framework */; };
 		4409C7DA181164C2004148DA /* libhdf5.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4409C7D9181164C2004148DA /* libhdf5.8.dylib */; };
 		4409C7DD18116794004148DA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4409C7DC18116794004148DA /* CoreAudio.framework */; };
+		44142201181695BF00D3A17A /* MatrixCL.c in Sources */ = {isa = PBXBuildFile; fileRef = 441421FE181695BF00D3A17A /* MatrixCL.c */; };
+		44142202181695BF00D3A17A /* MatrixCL.cl in Sources */ = {isa = PBXBuildFile; fileRef = 441421FF181695BF00D3A17A /* MatrixCL.cl */; };
+		44142203181695BF00D3A17A /* MatrixCL.h in Headers */ = {isa = PBXBuildFile; fileRef = 44142200181695BF00D3A17A /* MatrixCL.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,9 +71,6 @@
 		4409C76118116493004148DA /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
 		4409C76218116493004148DA /* MatrixRingBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MatrixRingBuffer.c; sourceTree = "<group>"; };
 		4409C76318116493004148DA /* MatrixRingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixRingBuffer.h; sourceTree = "<group>"; };
-		4409C76518116493004148DA /* MatrixCL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MatrixCL.c; sourceTree = "<group>"; };
-		4409C76618116493004148DA /* MatrixCL.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = MatrixCL.cl; sourceTree = "<group>"; };
-		4409C76718116493004148DA /* MatrixCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixCL.h; sourceTree = "<group>"; };
 		4409C76818116493004148DA /* OverlappingRingBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OverlappingRingBuffer.c; sourceTree = "<group>"; };
 		4409C76918116493004148DA /* OverlappingRingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlappingRingBuffer.h; sourceTree = "<group>"; };
 		4409C76A18116493004148DA /* RingBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RingBuffer.c; sourceTree = "<group>"; };
@@ -100,8 +95,6 @@
 		4409C78D18116493004148DA /* TriangleFilterBank.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TriangleFilterBank.c; sourceTree = "<group>"; };
 		4409C78E18116493004148DA /* TriangleFilterBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleFilterBank.h; sourceTree = "<group>"; };
 		4409C79118116493004148DA /* TriangleFilterBankTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleFilterBankTests.h; sourceTree = "<group>"; };
-		4409C79318116493004148DA /* MatrixOpenCL.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = MatrixOpenCL.cl; sourceTree = "<group>"; };
-		4409C79418116493004148DA /* MatrixOpenCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixOpenCL.h; sourceTree = "<group>"; };
 		4409C79518116493004148DA /* OpenCLObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenCLObject.c; sourceTree = "<group>"; };
 		4409C79618116493004148DA /* OpenCLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCLObject.h; sourceTree = "<group>"; };
 		4409C7CF181164B1004148DA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -112,6 +105,9 @@
 		4409C7D9181164C2004148DA /* libhdf5.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5.8.dylib; path = /usr/local/Cellar/hdf5/1.8.11/lib/libhdf5.8.dylib; sourceTree = "<absolute>"; };
 		4409C7DC18116794004148DA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		440ABC4D1815DD9A00CAF5EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		441421FE181695BF00D3A17A /* MatrixCL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MatrixCL.c; sourceTree = "<group>"; };
+		441421FF181695BF00D3A17A /* MatrixCL.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = MatrixCL.cl; sourceTree = "<group>"; };
+		44142200181695BF00D3A17A /* MatrixCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixCL.h; sourceTree = "<group>"; };
 		4434913618154A7B0090ED42 /* DSPTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSPTools.h; path = ../../DSPTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,7 +174,6 @@
 				4409C76118116493004148DA /* Matrix.h */,
 				4409C76218116493004148DA /* MatrixRingBuffer.c */,
 				4409C76318116493004148DA /* MatrixRingBuffer.h */,
-				4409C76418116493004148DA /* OpenCL */,
 				4409C76818116493004148DA /* OverlappingRingBuffer.c */,
 				4409C76918116493004148DA /* OverlappingRingBuffer.h */,
 				4409C76A18116493004148DA /* RingBuffer.c */,
@@ -186,16 +181,6 @@
 			);
 			name = "Data Structures";
 			path = "../Data Structures";
-			sourceTree = "<group>";
-		};
-		4409C76418116493004148DA /* OpenCL */ = {
-			isa = PBXGroup;
-			children = (
-				4409C76518116493004148DA /* MatrixCL.c */,
-				4409C76618116493004148DA /* MatrixCL.cl */,
-				4409C76718116493004148DA /* MatrixCL.h */,
-			);
-			path = OpenCL;
 			sourceTree = "<group>";
 		};
 		4409C76C18116493004148DA /* DSP */ = {
@@ -229,10 +214,9 @@
 		4409C79218116493004148DA /* OpenCL */ = {
 			isa = PBXGroup;
 			children = (
-				4409C79318116493004148DA /* MatrixOpenCL.cl */,
-				4409C79418116493004148DA /* MatrixOpenCL.h */,
 				4409C79518116493004148DA /* OpenCLObject.c */,
 				4409C79618116493004148DA /* OpenCLObject.h */,
+				441421FD181695BF00D3A17A /* Data Structures */,
 			);
 			name = OpenCL;
 			path = ../OpenCL;
@@ -241,8 +225,8 @@
 		4409C7DB181164CC004148DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4409C7DC18116794004148DA /* CoreAudio.framework */,
 				4409C7D9181164C2004148DA /* libhdf5.8.dylib */,
+				4409C7DC18116794004148DA /* CoreAudio.framework */,
 				4409C7CF181164B1004148DA /* Accelerate.framework */,
 				4409C7D0181164B1004148DA /* AudioToolbox.framework */,
 				4409C7D1181164B1004148DA /* AudioUnit.framework */,
@@ -250,6 +234,16 @@
 				4409C7D3181164B1004148DA /* OpenCL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		441421FD181695BF00D3A17A /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				441421FE181695BF00D3A17A /* MatrixCL.c */,
+				441421FF181695BF00D3A17A /* MatrixCL.cl */,
+				44142200181695BF00D3A17A /* MatrixCL.h */,
+			);
+			path = "Data Structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,14 +254,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4409C7AE18116493004148DA /* BandPassFilter.h in Headers */,
-				4409C7CC18116493004148DA /* MatrixOpenCL.h in Headers */,
 				4409C79A18116493004148DA /* AudioObject.h in Headers */,
-				4409C7A818116493004148DA /* MatrixCL.h in Headers */,
 				4409C79818116493004148DA /* AudioInput.h in Headers */,
 				4409C7CE18116493004148DA /* OpenCLObject.h in Headers */,
 				4409C7A318116493004148DA /* Matrix.h in Headers */,
 				4409C7AC18116493004148DA /* RingBuffer.h in Headers */,
 				4409C7C218116493004148DA /* OpenCLObjectTests.h in Headers */,
+				44142203181695BF00D3A17A /* MatrixCL.h in Headers */,
 				4409C7C018116493004148DA /* FormantSynthesiser.h in Headers */,
 				4409C7BA18116493004148DA /* DTWSegmentMap.h in Headers */,
 				4409C7AA18116493004148DA /* OverlappingRingBuffer.h in Headers */,
@@ -336,14 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4409C7A718116493004148DA /* MatrixCL.cl in Sources */,
 				4409C7B918116493004148DA /* DTWSegmentMap.c in Sources */,
 				4409C7AB18116493004148DA /* RingBuffer.c in Sources */,
 				4409C7A218116493004148DA /* Matrix.c in Sources */,
 				4409C7A018116493004148DA /* AudioMatrix.c in Sources */,
 				4409C7C618116493004148DA /* TriangleFilterBank.c in Sources */,
 				4409C79718116493004148DA /* AudioInput.c in Sources */,
-				4409C7CB18116493004148DA /* MatrixOpenCL.cl in Sources */,
 				4409C79918116493004148DA /* AudioObject.c in Sources */,
 				4409C7B618116493004148DA /* DTWAccelerate.c in Sources */,
 				4409C7A418116493004148DA /* MatrixRingBuffer.c in Sources */,
@@ -351,11 +342,12 @@
 				4409C7BB18116493004148DA /* FFT.c in Sources */,
 				4409C79B18116493004148DA /* AudioStream.c in Sources */,
 				4409C7C318116493004148DA /* PhaseVocoder.c in Sources */,
-				4409C7A618116493004148DA /* MatrixCL.c in Sources */,
+				44142202181695BF00D3A17A /* MatrixCL.cl in Sources */,
 				4409C7A918116493004148DA /* OverlappingRingBuffer.c in Sources */,
 				4409C7CD18116493004148DA /* OpenCLObject.c in Sources */,
 				4409C7C118116493004148DA /* OpenCLObjectTests.cl in Sources */,
 				4409C7AD18116493004148DA /* BandPassFilter.c in Sources */,
+				44142201181695BF00D3A17A /* MatrixCL.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

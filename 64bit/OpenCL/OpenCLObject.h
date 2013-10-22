@@ -43,7 +43,6 @@ extern "C"
     
 #define _OpenCLObject __attribute__((unused)) __attribute__((cleanup(OpenCLObject_scopedDelete))) OpenCLObject
     
-    
     cl_mem OpenCLObject_allocateFloat64Buffer(const OpenCLObject *const self,
                                               const size_t size,
                                               const cl_mem_flags flag);
@@ -53,6 +52,7 @@ extern "C"
     cl_mem OpenCLObject_allocateBuffer(const OpenCLObject *const self,
                                        const size_t bufferSizeInBytes,
                                        const cl_mem_flags flag);
+    
     void OpenCLObject_writeFloat64Buffer(const OpenCLObject *self,
                                          const cl_mem clBuffer,
                                          const Float64 *const data,
@@ -79,8 +79,9 @@ extern "C"
     
     int OpenCLObject_deviceStats(const cl_device_id device_id);
     
-    void OpenCLObject_executeKernel(const OpenCLObject *const self,                                 cl_kernel kernel, size_t globalWorkSize);
-    
+    void OpenCLObject_executeKernel(const OpenCLObject *const self,
+                                    cl_kernel kernel,
+                                    size_t globalWorkSize);
     
     cl_kernel OpenCLObject_createKernel(OpenCLObject *const self,
                                         const char *kernelName);
