@@ -26,7 +26,7 @@ static Matrix *Matrix_allocate(size_t rowCount, size_t columnCount)
 OVERLOADED Matrix *const Matrix_new(size_t rowCount, size_t columnCount)
 {
     Matrix *self = Matrix_allocate(rowCount, columnCount);
-    self->submatrixView = Matrix_allocate(rowCount, columnCount);
+    self->submatrixView = (struct Matrix *) Matrix_allocate(rowCount, columnCount);
     
     return self;
 }
@@ -318,7 +318,7 @@ Matrix *Matrix_submatrixView(Matrix *self,
         exit(-1);
     }
     
-    Matrix *submatrixView = self->submatrixView;
+    Matrix *submatrixView = (Matrix *)self->submatrixView;
     
     submatrixView->rowCount = rowCount;
     submatrixView->columnCount = columnCount;

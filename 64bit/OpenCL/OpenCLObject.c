@@ -251,7 +251,7 @@ void OpenCLObject_readBuffer(const OpenCLObject *const self,
 }
 
 
-int OpenCLObject_deviceStats(const cl_device_id device_id)
+void OpenCLObject_deviceStats(const cl_device_id device_id)
 {
     int err;
 	size_t returned_size;
@@ -316,7 +316,5 @@ int OpenCLObject_deviceStats(const cl_device_id device_id)
 	
 	printf("Max Compute Units: %i\n",max_compute_units);
 	printf("\n");
-	
-	return CL_SUCCESS;
 }
 
