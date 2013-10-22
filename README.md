@@ -7,7 +7,8 @@ Note: 32bit code is legacy, and is being slowly ported the 64bit as I need it. T
 
 ##Dependencies##
 
-[HDF5](http://www.hdfgroup.org/HDF5/) - Install through [Homebrew](https://github.com/mxcl/homebrew/) (brew install hdf5)
+- Mac OS X 10.7 or greater
+- [HDF5](http://www.hdfgroup.org/HDF5/) - Install through [Homebrew](https://github.com/mxcl/homebrew/) (brew install hdf5)
 
 
 ##Notes##
